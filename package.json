@@ -1,0 +1,30 @@
+{
+  "version":"1.5.0",
+  "publisher":"nukarma",
+  "name":"yue",
+  "categories":["Themes"],
+  "engines":{
+    "vscode":"^1.0.0"
+  },
+  "description":"Theme inspired by 'moon' from the Moonscript website.",
+  "contributes":{
+    "themes":[{
+        "path":"./themes/yue-newmoon-color-theme.json",
+        "label":"yue-newmoon",
+        "uiTheme":"vs-dark"
+      },{
+        "path":"./themes/yue-moon-color-theme.json",
+        "label":"yue-moon",
+        "uiTheme":"vs-dark"
+      },{
+        "path":"./themes/yue-sun-color-theme.json",
+        "label":"yue-sun",
+        "uiTheme":"vs"
+      },{
+        "path":"./themes/yue-fullmoon-color-theme.json",
+        "label":"yue-fullmoon",
+        "uiTheme":"vs-dark"
+      }]
+  },
+  "displayName":"Yue Theme"
+}
